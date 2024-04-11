@@ -18,6 +18,9 @@ jobs:
 
       - name: ... buil success ...
         run: echo ... buil success ...
+
+      - name: ... check node version ...
+        run: node -v 
   
   tests:
     name: Tests
